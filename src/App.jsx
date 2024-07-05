@@ -3,6 +3,7 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Technologies from "./components/Technologies";
+import Projects from "./components/Projects";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <About />
         <Technologies />
         <Experience />
+        <Projects />
       </div>
     </div>
   )
