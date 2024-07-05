@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Technologies />
         <Experience />
         <Projects />
+        <Contact />
       </div>
     </div>
   )
